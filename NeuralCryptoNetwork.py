@@ -15,10 +15,6 @@ else:
     Model.predictToCSV()
 
 
-    #setup predict to allow the user to specify the model to use from the folder which can be taken as a parameter into the predict
-    #also give default values for the initiliter stuff
-
-
 #MAIN
 #df = pd.read_csv("data10001.csv")
 #dataframeName = 'data10001'

@@ -11,3 +11,4 @@ Next steps:
 - Experiment with including more indicators and excluding others
 - Continue to work on the predictToCSV() function in order to export the data to a CSV file properly (currently not working: rows are not consistent (suspecting issues with matching as ptc change was applied after labels were created (may have to redefine the label function to do it based upon ptc change)))
 - Use an exchanges API to automate buys & sells under certain loss and gain conditions for the purpose of profiting.
+- Adding a ML algorithm that uses google trends API to factor in popularities of cryptocurrencies into the prediction of the model

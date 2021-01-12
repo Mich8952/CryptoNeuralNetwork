@@ -16,6 +16,7 @@ Next steps:
 - Naming conventions are a bit inconsistent and will be fixed
 
 Details & Libraries:
+- Python 3.8
 - Tensorflow 1.15 (GPU)
 - Scikit-learn 0.23.2
 - Pandas 1.2.0

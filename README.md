@@ -2,6 +2,7 @@
 IN VERY EARLY STAGES
 Work in progress project that uses neural networks to predict when prices either increase or decrease.
 
+
 Current: Can train using CSV data that includes Close and Volume data for crypto currencies. Currently supports multiple moving averages, MACD, OBV, RSI, and Bollinger Bands.
 Full experimentation with all indicators and other factors chosen in the neural network have yet to be extensively explored. Current profile 2 configurations achieve ~78% accuracy across training and validation data. New data passed also provides ~78% accuracy.
 
@@ -13,3 +14,8 @@ Next steps:
 - Use an exchange's API to automate buys & sells under certain loss and gain conditions for the purpose of profiting.
 - Add a ML algorithm that uses google trends API to factor in popularities of cryptocurrencies in google searches into the prediction of the model
 - Naming conventions are a bit inconsistent and will be fixed
+
+Details & Libraries:
+- Tensorflow 1.15 (GPU)
+- Scikit-learn 0.23.2
+- Pandas 1.2.0
